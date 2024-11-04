@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+    background-color: beige;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin-top: -10%;
+    width: 900px;
+    height: 600px;
+    background-image: url('./img/bg3.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.main-header{
+    width: 120px;
+    padding: 40px 370px 0;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+.container{
+    margin: 120px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-item{
+    font-size: 23px;
+    width: 33%;
+    text-align: center;
+}
+
+.temperature{
+    margin-left: 10px;
+}
+.temperature-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.temperature-item{
+    display: flex;
+    justify-content: center;
+}
+
+.wind-content{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.cloud-content{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+
+.footer-item{
+    font-size: 23px;
+    width: 33%;
+    text-align: center;
+}
+
+.country-content{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-country {
+    margin-left: 10px;
+}
+
+.footer-sunset{
+    margin-left: 10px;
+}
+
+.footer-sunrise{
+    margin-left: 10px;
+}
