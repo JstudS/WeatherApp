@@ -40,6 +40,7 @@ dateSet();
  	tempFeelsLike.innerHTML = current.feelslike_c;
  	humidity.innerHTML = current.humidity;
  	wind.innerHTML = current.wind_kph;
-  	} catch (error) {
+  } 
+  catch (error) {
   	console.error(error);
   }
