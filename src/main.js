@@ -33,7 +33,7 @@ dateSet();
   try {
   	const response = await fetch(url, options);
   	const {location, current} = await response.json();
-    city.innerHTML = location.name;
+    	city.innerHTML = location.name;
  	country.innerHTML = location.country;
  	clouds.innerHTML = current.cloud;
  	tempMain.innerHTML = current.heatindex_c;
